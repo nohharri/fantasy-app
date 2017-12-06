@@ -1,0 +1,42 @@
+/**
+ *  Define scss variables here.
+ *
+ *  Available options for Bootstrap:
+ *  http://getbootstrap.com/customize/
+ *
+ */
+
+// Imports
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700i');
+
+// Custom Colors
+$cyan: #33e0ff;
+$humility: #777;
+$blue-chrome: #c3cde0;
+
+// Bootstrap Variables
+// ONLY FOR BOOTSTRAP
+
+// Colors
+$brand-primary: darken(#428bca, 6.5%);
+$brand-secondary: #e25139;
+$brand-success: #5cb85c;
+$brand-warning: #f0ad4e;
+$brand-danger: #d9534f;
+$brand-info: #5bc0de;
+
+$grey: #757575;
+$dark-grey: darken($grey, 15%);
+$light-grey: lighten($grey, 30%);
+$lighter-grey: lighten($grey, 45%);
+
+$text-color: $dark-grey;
+$btn-color: $blue-chrome;
+
+// Font
+$font-size-base: 14px;
+$font-family-sans-serif: "Helvetica Neue", Helvetica, sans-serif;
+$font-family-roboto: "Roboto Condensed", sans-serif;
+
+$font-header: $font-family-roboto;
+$font-btn: $font-family-roboto;

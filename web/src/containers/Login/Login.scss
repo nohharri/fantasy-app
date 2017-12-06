@@ -1,0 +1,33 @@
+.loginPage {
+  text-align: center;
+
+  input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  form {
+    margin: 30px 0;
+  }
+  button {
+    margin-bottom: 20px;
+  }
+  .formContainer {
+    width: 100%;
+  }
+  .formItem {
+    display: block;
+    width: 100% !important;
+    float: left;
+    margin-top: 20px;
+  }
+  .box {
+    margin: 0 auto;
+    max-width: 300px;
+    width: 100%;
+
+    h1 {
+      text-align: center;
+    }
+  }
+}
