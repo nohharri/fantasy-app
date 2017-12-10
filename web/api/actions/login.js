@@ -5,9 +5,11 @@ export default function login(req) {
 
   const db = req.app.locals.db;
 
-  db.authUser(user);
+  let authenticatedUser = db.authUser(user);
+  if(!authenticatedUser) {
 
-  //database.test();
+  }
+
   // delete this line
   req.session.user = user;
   return Promise.resolve(user);

@@ -7,7 +7,7 @@ import { mapUrl } from 'utils/url.js';
 import PrettyError from 'pretty-error';
 import http from 'http';
 import SocketIo from 'socket.io';
-import { mongoDatabase, usersSchema } from './db/index';
+import { mongoDatabase } from './db/index';
 
 
 // Framework

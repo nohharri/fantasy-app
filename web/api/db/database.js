@@ -3,7 +3,5 @@ export default class database {
 
 	connect() {}
 
-	init() {}
-
-	test() {}
+	authUser() {}
 }
